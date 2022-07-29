@@ -1,0 +1,34 @@
+.seat-row{
+  margin: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.seat-col{
+  background-color: lightgray;
+  margin: 2px;
+  height: 8px;
+  vertical-align: middle;
+  border-radius: 25%;
+  padding : 24px;
+  cursor :not-allowed;
+}
+
+.seat-booked{
+  background-color: lightgreen;
+  cursor: pointer;
+}
+
+.seat-avaliable{
+  cursor: pointer;
+  background-color: lightgreen;
+}
+
+.seat-taken{
+  background-color: lightcoral;
+  cursor :not-allowed;
+}
+
+.seat-selected{
+  background-color: lightblue;
+}
