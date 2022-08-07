@@ -17,6 +17,9 @@ export default function AdminVehicles() {
     <div className="container">
       <AdminNavBar></AdminNavBar>
       <div style={{ marginTop: 50 }}>
+        <span style={{ marginLeft: "80%" }}></span>
+        <button className="btn btn-primary">Add Vehicles</button>
+        <div style={{ marginBottom: "5%" }}></div>
         <table className="table table-striped">
           <thead>
             <tr>

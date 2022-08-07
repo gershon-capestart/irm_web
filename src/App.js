@@ -9,6 +9,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 import { Routes, Route, Link, BrowserRouter as Router } from "react-router-dom";
 import AdminVehicles from "./components/AdminVehicles";
+import AdminBuildings from "./components/AdminBuildings";
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
           <Route path="/vehicles" element={<Vehicle />} />
           <Route path="/admin/workspace" element={<AdminWorkspace />} />
           <Route path="/admin/vehicles" element={<AdminVehicles />} />
+          <Route path="/admin/buildings" element={<AdminBuildings />} />
+          <Route path="/*" element={<p>404</p>} />
         </Routes>
       </Router>
     </div>

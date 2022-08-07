@@ -12,6 +12,9 @@ export default function AdminNavBar() {
         <Nav.Link onClick={() => (window.location.href = "/admin/vehicles")}>
           Vehicles
         </Nav.Link>
+        <Nav.Link onClick={() => (window.location.href = "/admin/buildings")}>
+          Buildings
+        </Nav.Link>
         <Navbar.Collapse className="justify-content-end">
           <Navbar.Text>
             Signed in as: <a href="#login">{localStorage.getItem("name")}</a>

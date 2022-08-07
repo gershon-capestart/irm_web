@@ -14,7 +14,8 @@ async function adminGetAllVehicles() {
 async function getMyVehicles() {
   try {
     let response = await axios.get(
-      constants.BASE_URL + `/vehicles?searchKey=${constants.EMPLOYEE_CODE}`
+      constants.BASE_URL +
+        `/admin/vehicles?searchKey=${constants.EMPLOYEE_CODE}`
     );
     return response.data.data;
   } catch (e) {

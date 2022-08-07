@@ -2,13 +2,11 @@ import React, { useState } from "react";
 import axios from "axios";
 
 import constants from "../constants";
-// import "../css/workspace.css";
 import { Form, Button } from "react-bootstrap";
-import NavBar from "./NavBar";
 
 function Login() {
   // React States
-  const [uname, setUname] = useState(621);
+  const [uname, setUname] = useState();
 
   const handleSubmit = (event) => {
     event.preventDefault();
